@@ -1,0 +1,23 @@
+.note {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: yellow;
+  list-style: None;
+  margin: 0;
+  padding: 0;
+  width: calc((90vw / 3) - 3vw);
+  height: 15vw;
+}
+
+.note h1 {
+  font-size: 2.5vw;
+  border-bottom: 1px solid black;
+
+}
+
+.note p {
+  font-size: 1.5vw;
+}
+
+
