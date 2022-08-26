@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 class NoteService {
-  async getNotes() {
+  async getNotes(userId) {
     let retorno = null
     const res = await axios({
       method: 'GET',
